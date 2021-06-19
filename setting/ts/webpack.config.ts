@@ -69,7 +69,7 @@ const config: webpack.Configuration = {
     publicPath: '/dist/',
   },
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true, //react router 사용시 설정 
     port: 3090,
     publicPath: '/dist/',
   },
